@@ -174,7 +174,7 @@ public class AutoworldMain {
             totLaadvolume += (eenLading.getLaadvolume().getVolume() / Maat.METER.getMaatRatio());
         }
         
-        System.out.println("\nTotaal laadvolume...");
+        System.out.println("\nTotaal laadvolume....");
         System.out.println(totLaadvolume + " m3");
         System.out.println(totBigLaadvolume.setScale(2, RoundingMode.HALF_UP) + " cm3");   
         System.out.println(totBigLaadvolume.divide(BigDecimal.valueOf(Maat.METER.getMaatRatio())).setScale(2, RoundingMode.HALF_UP) + " m3");               
